@@ -13,7 +13,7 @@ const Header = props => {
     <div id='topBar'>
       <Navbar expand='sm' >
         <Container fluid id="headerContainer">
-          <Navbar.Brand className='gradient-text' href="/myPortfolio/" style={{ fontSize: '4vh'}}>H.L.</Navbar.Brand>
+          <Navbar.Brand className='gradient-text' href="/portfolio/" style={{ fontSize: '4vh'}}>H.L.</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-sm`}
