@@ -10,10 +10,10 @@ function App() {
   return (
     <>
      <Routes>
-      <Route path="/myPortfolio/" element={<HomePage />} />
-      <Route path="/myPortfolio/about" element={<AboutPage />} />
-      <Route path="/myPortfolio/projects" element={<ProjectsPage/>} />
-      <Route path="/myPortfolio/contact" element={<ContactPage/>} />
+      <Route path="/portfolio/" element={<HomePage />} />
+      <Route path="/portfolio/about" element={<AboutPage />} />
+      <Route path="/portfolio/projects" element={<ProjectsPage/>} />
+      <Route path="/portfolio/contact" element={<ContactPage/>} />
      </Routes>
     </>
   )

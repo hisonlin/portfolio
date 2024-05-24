@@ -27,9 +27,9 @@ const Header = props => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1" style={{ fontSize: '2.5vh' }}>
-                <Nav.Link className="nav-link-item" href="/myPortfolio/about">About</Nav.Link>
-                <Nav.Link className="nav-link-item" href="/myPortfolio/projects">Projects</Nav.Link>
-                <Nav.Link className="nav-link-item" href="/myPortfolio/contact">Contact</Nav.Link>
+                <Nav.Link className="nav-link-item" href="/portfolio/about">About</Nav.Link>
+                <Nav.Link className="nav-link-item" href="/portfolio/projects">Projects</Nav.Link>
+                <Nav.Link className="nav-link-item" href="/portfolio/contact">Contact</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
