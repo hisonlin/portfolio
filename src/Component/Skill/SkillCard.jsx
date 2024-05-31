@@ -19,6 +19,7 @@ const SkillCard = (props) => {
               <div className="text">NodeJS</div>
               <div className="text">ReactJS</div>
               <div className="text">REST API</div>
+              <div className="text">JWT Auth</div>
               <div className="text">JSON</div>
               <div className="text">Animation</div>
               <div className="text">Database</div>
@@ -68,6 +69,7 @@ const SkillCard = (props) => {
           <div className="content">           
               <div className="text">Java</div>
               <div className="text">Kotlin</div>
+              <div className="text">MVC</div>
               <div className="text">XML</div>
               <div className="text">Material Design 3</div>
               <div className="text">Jetpack Compose</div>
