@@ -14,6 +14,31 @@ const ProjectsCard = props => {
                     <div class="ag-courses-item_link">
                         <div class="ag-courses-item_bg"></div>
                         <div class="ag-courses-item_title">
+                            Job Finder Bot
+                        </div>
+                        <div class="ag-courses-item_description">
+                            <ul>
+                                <li>Automated job scraping from Indeed and posting job listings on Discord channel</li>
+                                <li>Comprehensive development from setting up web scraping with <span>Selenium</span> to interacting with <span>Discord API</span> using Discord.py</li>
+                                <li>Features include scraping job listings for specific queries and locations, filtering results, and posting formatted job information to a specified Discord channel</li>
+                                <li><span>Selenium</span> for web scraping, extracting job details from Indeed</li>
+                                <li><span>Discord.py</span> for creating a Discord bot, handling authentication, and sending messages to Discord</li>
+                                <li>Utilized <span>Python</span> for scripting the entire process, <span>dotenv</span> for managing environment variables, and <span>web scraping techniques</span> for data extraction</li>
+                            </ul>
+                        </div>
+                        <div class="ag-courses-item_date">
+                            Jun 2024 (One day project)
+                        </div>
+                        <div class="ag-courses-buttons">
+                            <button className='project-button' onClick={() => handleOnClick("https://github.com/hisonlin/jobFinderBot")}>GitHub</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ag-courses_item">
+                    <div class="ag-courses-item_link">
+                        <div class="ag-courses-item_bg"></div>
+                        <div class="ag-courses-item_title">
                             Android App - Optimate
                         </div>
                         <div class="ag-courses-item_description">

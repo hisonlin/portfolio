@@ -29,6 +29,9 @@
     height: 100%;
 }
 
+span{
+    font-weight: bold;
+}
 
 
 .ag-courses-item_title {
@@ -81,7 +84,8 @@ li{
 .ag-courses-item_bg {
     height: 128px;
     width: 128px;
-    background-color: #f9b234;
+    background-color:#f9b234;
+    opacity: .6;
     z-index: 1;
     position: absolute;
     top: -75px;
@@ -225,5 +229,9 @@ li{
     .ag-courses_item {
         height: 800px;
        
+    }
+    .ag-courses-buttons{
+        display: flex;
+        flex-direction: column;
     }
 }
