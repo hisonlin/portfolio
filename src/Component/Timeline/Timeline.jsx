@@ -16,14 +16,8 @@ const Timeline = props => {
                             <h2>ITLabPro Bootcamp</h2>
                         </div>
                         <div class="body">
-                            <p style={{ fontWeight: 'bold' }}>Diploma Computer System Technology</p>
-                            <ul>
-                                <li>GPA 4.09</li>
-                                <li>Engaged in multiple projects, focusing primarily on <span >web applications</span>, with additional experience in <span>Android applications</span> and <span>UX/UI design</span>.</li>
-                                <li>Specialized in integrating UI designs with <span>React.js</span> for web development, applying front-end principles extensively.</li>
-                                <li>Hands-on experience with <span>databases</span> such as <span>Firebase</span> and <span>MySQL</span></li>
-                                <li>Deeply engaged in <span>Artificial Intelligence (AI)</span> and <span>Machine Learning (ML)</span> using <span>Python</span></li>
-                            </ul>
+                            <p style={{ fontWeight: 'bold' }}>Full Stack Developer Bootcamp</p>
+                            
                         </div>
                     </div>
 
