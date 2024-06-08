@@ -3,12 +3,15 @@ import PropTypes from 'prop-types'
 import './ProjectsCard.css'
 
 const ProjectsCard = props => {
+
+    const handleOnClick = (url) => {
+        window.open(url)
+    }
     return (
         <div class="ag-format-container">
             <div class="ag-courses_box">
-
-            <div class="ag-courses_item">
-                    <a href="https://github.com/masamoe/Optimate" class="ag-courses-item_link">
+                <div class="ag-courses_item">
+                    <div class="ag-courses-item_link">
                         <div class="ag-courses-item_bg"></div>
                         <div class="ag-courses-item_title">
                             Android App - Optimate
@@ -23,19 +26,21 @@ const ProjectsCard = props => {
                                 <li><span>Kotlin</span> as the primary programming language, <span>Jetpack Compose</span> and <span>XML</span> integrated with <span>Material Design 3</span> for styling</li>
                             </ul>
                         </div>
-                        <div class="ag-courses-item_date-box">
-                            <span class="ag-courses-item_date">
-                                Jan 2024 - Mar 2024
-                            </span>
+                        <div class="ag-courses-item_date">
+                            Jan 2024 - Mar 2024
                         </div>
-                    </a>
+                        <div class="ag-courses-buttons">
+                            <button className='project-button' onClick={() => handleOnClick("https://github.com/masamoe/Optimate")}>GitHub</button>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="ag-courses_item">
-                    <a href="https://github.com/hisonlin/ML-AI/tree/main/CSTP2301_FinalProject" class="ag-courses-item_link">
+                    <div class="ag-courses-item_link">
                         <div class="ag-courses-item_bg"></div>
                         <div class="ag-courses-item_title">
-                        Python Jupyter - Machine Learning Project
+                            Python Jupyter - Machine Learning Project
                         </div>
                         <div class="ag-courses-item_description">
                             <ul>
@@ -45,16 +50,17 @@ const ProjectsCard = props => {
                                 <li>Regression models: Decision Tree, Linear, Support Vector, Multi-Layer Perceptron, Gradient Boosting, Random Forest, Ridge, Lasso.</li>
                             </ul>
                         </div>
-                        <div class="ag-courses-item_date-box">
-                            <span class="ag-courses-item_date">
-                                Mar 2024 - Apr 2024
-                            </span>
+                        <div class="ag-courses-item_date">
+                            Mar 2024 - Apr 2024
                         </div>
-                    </a>
+                        <div class="ag-courses-buttons">
+                            <button className='project-button' onClick={() => handleOnClick("https://github.com/hisonlin/ML-AI/tree/main/CSTP2301_FinalProject")}>GitHub</button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="ag-courses_item">
-                    <a href="https://hisonlin-car-rental.vercel.app/" class="ag-courses-item_link">
+                    <div class="ag-courses-item_link">
                         <div class="ag-courses-item_bg"></div>
                         <div class="ag-courses-item_title">
                             React - Car Rental Web App
@@ -67,23 +73,25 @@ const ProjectsCard = props => {
                                 <li>Integrated Google login, making it quick and easy to access our service.</li>
                             </ul>
                         </div>
-                        <div class="ag-courses-item_date-box">
-                            <span class="ag-courses-item_date">
-                                Oct 2023 - Dec 2023
-                            </span>
+                        <div class="ag-courses-item_date">
+                            Oct 2023 - Dec 2023
                         </div>
-                    </a>
+                        <div class="ag-courses-buttons">
+                            <button className='project-button' onClick={() => handleOnClick("https://github.com/hisonlin/CSTP2107-CarRental")}>GitHub</button>
+                            <button className='project-button' onClick={() => handleOnClick("https://hisonlin-car-rental.vercel.app/")}>Deployment</button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="ag-courses_item">
-                    <a href="https://www.figma.com/file/juH0X9qzvcgI7nZWQxH659/CSTP-UI-design-Mobile-Framework" class="ag-courses-item_link">
+                    <div class="ag-courses-item_link">
                         <div class="ag-courses-item_bg"></div>
                         <div class="ag-courses-item_title">
                             UX/UI Design - Car Rental IOS APP
                         </div>
                         <div class="ag-courses-item_description">
                             <div>
-                            Make the following accessible to the user:
+                                Make the following accessible to the user:
                             </div>
                             <ul>
                                 <li>Vehicle Availability</li>
@@ -95,14 +103,15 @@ const ProjectsCard = props => {
                                 <li>Digital Competitiveness</li>
                             </ul>
                         </div>
-                        <div class="ag-courses-item_date-box">
-                            <span class="ag-courses-item_date">
-                                Feb 2023 - Apr 2023
-                            </span>
-                        </div>
-                    </a>
-                </div>
 
+                        <div class="ag-courses-item_date">
+                            Feb 2023 - Apr 2023
+                        </div>
+                        <div class="ag-courses-buttons">
+                            <button className='project-button' onClick={() => handleOnClick("https://www.figma.com/file/juH0X9qzvcgI7nZWQxH659/CSTP-UI-design-Mobile-Framework")}>Figma</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
