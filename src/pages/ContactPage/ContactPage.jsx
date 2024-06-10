@@ -10,31 +10,42 @@ const ContactPage = props => {
       <Headers />
       <div className='contact-container'>
         <div className='contact-body'>
-        <div className='contact-method'>
-          BY EMAIL
-        </div>
-        <div className='contact-detail'>
-          hisonlinca@gmail.com
-        </div>
-        <div className='contact-method'>
-          BY PHONE
-        </div>
-        <div className='contact-detail'>
-          778-892-5633
-        </div>
+          <div className='contact-method'>
+            BY EMAIL
+          </div>
+          <div className='contact-detail'>
+            hisonlinca@gmail.com
+          </div>
+          <div className='contact-method'>
+            BY PHONE
+          </div>
+          <div className='contact-detail'>
+            778-892-5633
+          </div>
+          <div style={{ display: "flex", justifyContent: "center", gap: "10px" }}>
+            <a href="https://www.linkedin.com/in/hisonlin/">
+              <img src="LinkedIn_icon.png" alt="Linkedin" width={"25px"} height={"25px"} />
+            </a>
+            <a href="https://github.com/hisonlin">
+              <img src="Github_icon.png" alt="Github" width={"25px"} height={"25px"} />
+            </a>
+            <a href="https://m.facebook.com/hison.lin">
+              <img src="Facebook_icon.png" alt="Facebook" width={"25px"} height={"25px"} />
+            </a>
+          </div>
         </div>
         <div className='contact-footer'>
           <div className='contact-footer-left'>
-            <div style={{fontWeight:'600', letterSpacing:'0.2em', marginBottom:'1vh'}}>
+            <div style={{ fontWeight: '600', letterSpacing: '0.2em', marginBottom: '1vh' }}>
               CONTACT
-              </div>
-            <div style={{marginBottom:'1vh', letterSpacing:'0.1em'}}>Interested in working together?</div>
-            <div style={{marginBottom:'1vh', letterSpacing:'0.1em'}}>Feel free to reach out to me!</div>
-            <div style={{letterSpacing:'0.1em'}}>hisonlinca@gmail.com</div>
+            </div>
+            <div style={{ marginBottom: '1vh', letterSpacing: '0.1em' }}>Interested in working together?</div>
+            <div style={{ marginBottom: '1vh', letterSpacing: '0.1em' }}>Feel free to reach out to me!</div>
+            <div style={{ letterSpacing: '0.1em' }}>hisonlinca@gmail.com</div>
           </div>
           <div className='contact-footer-right'>
-            <div className='contact-copyright' style={{fontWeight:'600', letterSpacing:'0.2em'}}>© HISON LIN 2024</div>
-            <div className='logo'><HeaderLogo /></div>           
+            <div className='contact-copyright' style={{ fontWeight: '600', letterSpacing: '0.2em' }}>© HISON LIN 2024</div>
+            <div className='logo'><HeaderLogo /></div>
           </div>
         </div>
       </div>
