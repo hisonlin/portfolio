@@ -5,15 +5,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Header.scss'
 import { Offcanvas } from 'react-bootstrap';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import HeaderLogo from '../HeaderLogo/HeaderLogo';
 
 const Header = props => {
   return (
     <div id='topBar'>
       <Navbar expand='sm' >
         <Container fluid id="headerContainer">
-          <Navbar.Brand className='gradient-text' href="/portfolio/" style={{ fontSize: '4vh'}}>H.L.</Navbar.Brand>
+          <Navbar.Brand className='gradient-text' href="/portfolio/" style={{ fontSize: '4vh'}}>
+          <HeaderLogo />
+          </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-sm`}

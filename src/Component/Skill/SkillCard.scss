@@ -10,8 +10,8 @@
 
 .underline-animation {
   position: relative;
-  display: inline-block; 
-  overflow: hidden; 
+  display: inline-block;
+  overflow: hidden;
 }
 
 .underline-animation::after {
@@ -19,9 +19,9 @@
   position: absolute;
   width: 50%;
   height: 2px;
-  background-color: currentColor; 
+  background-color: currentColor;
   transform: scaleX(0);
-  transform-origin: 0 50%; 
+  transform-origin: 0 50%;
   animation: transform 4s infinite ease-in-out;
 }
 
@@ -42,13 +42,13 @@
 //   font-weight: 900;
 //   letter-spacing: 0.2em;
 //   width: 100%;
- 
+
 // }
 
 // .dot-animation {
 //   position: relative;
 //   display: inline-block;
-  
+
 // }
 
 // .dot-animation::after {
@@ -64,19 +64,19 @@
 
 // @keyframes dotAppears {
 //   0%, 20% {
-//     content: 'Upskilling'; 
+//     content: 'Upskilling';
 //   }
 //   21%, 40% {
-//     content: 'Upskilling.'; 
+//     content: 'Upskilling.';
 //   }
 //   41%, 60% {
-//     content: 'Upskilling..'; 
+//     content: 'Upskilling..';
 //   }
 //   61%, 99% {
-//     content: 'Upskilling...'; 
+//     content: 'Upskilling...';
 //   }
 //   100% {
-//     content: 'Upskilling'; 
+//     content: 'Upskilling';
 //   }
 // }
 
@@ -169,7 +169,7 @@
   padding-top: 5vh;
 }
 
-.programming-content{
+.webCard-content{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10%;
@@ -181,20 +181,20 @@
   grid-row: span 2;
 }
 
-#programmingCard {
+#webCard {
   grid-row: span 4;
 }
 
 @media only screen and (max-width: 1280px) {
- .cardHead{
+  .cardHead{
     font-size: 3.5vh;
- }
- .text{
+  }
+  .text{
     font-size: 1.8vh;
- }
- .skillContainer {
-  font-size: 8vh;
-}
+  }
+  .skillContainer {
+    font-size: 8vh;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -230,20 +230,20 @@
     font-size: 4vh;
     grid-row: 7;
   }
-  #programmingCard {
+  #webCard {
     grid-row: 2;
-    
+
   }
-  #stylingCard {
+  #uixCard {
     grid-row: 3;
   }
   #dataCard {
     grid-row: 4;
   }
-  #devCard {
+  #androidCard {
     grid-row: 5;
   }
-  #ideCard {
+  #languageCard {
     grid-row: 6;
   }
   .text {
@@ -267,46 +267,46 @@
     padding-top: 0;
   }
 
-  .programming-content{
+  .webCard-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10%;
-  
+
   }
 }
 
-.programming-face{
+.webCard-face{
   background-image:url(/web.webp);
-  background-repeat: no-repeat;   
-  background-position: center;   
-  background-size: cover;        
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.uix-face{
+.uixCard-face{
   background-image:url(/UIX.webp);
-  background-repeat: no-repeat;   
-  background-position: center;   
-  background-size: cover;        
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.android-face{
+.androidCard-face{
   background-image:url(/android.webp);
-  background-repeat: no-repeat;   
-  background-position: center;   
-  background-size: cover;        
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.data-face{
+.dataCard-face{
   background-image:url(/data.webp);
-  background-repeat: no-repeat;   
-  background-position: center;   
-  background-size: cover;        
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.languages-face{
+.languageCard-face{
   background-image:url(/languages.webp);
-  background-repeat: no-repeat;   
-  background-position: center;   
-  background-size: cover;        
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
