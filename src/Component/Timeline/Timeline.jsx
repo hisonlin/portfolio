@@ -11,12 +11,34 @@ const Timeline = props => {
                     <div class="demo-card demo-card--step1">
                         <div class="head">
                             <div class="number-box">
-                                <span>May2024 - Nov2024</span>
+                                <span>May2024 - Oct2024</span>
                             </div>
                             <h2>ITLabPro Bootcamp</h2>
                         </div>
                         <div class="body">
-                            <p style={{ fontWeight: 'bold' }}>Full Stack Developer Bootcamp</p>
+                            <p style={{ fontWeight: 'bold' }}>Five Months Intensive Full Stack Developer Bootcamp</p>
+                            <ul>
+                                <li>Two months front-end skill development including:
+                                    <ul>
+                                        <li>HTML5, CSS3, SCSS, JavaSrcipt2015, ReactJS, Redux, Material UI, Responsive Design, Animation</li>
+                                    </ul>
+                                </li>
+                                <li>One months front-end skill web development project:
+                                    <ul>
+                                        <li>Coming Soon...</li>
+                                    </ul>
+                                </li>
+                                <li>One months back-end skill development including:
+                                    <ul>
+                                        <li>Coming Soon...</li>
+                                    </ul>
+                                </li>
+                                <li>One months ongoing commercial full-stack project:
+                                    <ul>
+                                        <li>Coming Soon...</li>
+                                    </ul>
+                                </li>
+                            </ul>
                             
                         </div>
                     </div>
@@ -43,7 +65,7 @@ const Timeline = props => {
                     <div class="demo-card demo-card--step3">
                         <div class="head">
                         <div class="number-box">
-                                <span>2012 - 2022</span>
+                                <span>Feb2012 - Dec2022</span>
                             </div>
                             <h2>AIA International Limited (Hong Kong)</h2>
                         </div>
