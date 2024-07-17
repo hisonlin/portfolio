@@ -5,7 +5,7 @@ import Logo from '../Logo/Logo';
 
 const urls = {
     linkedin: 'https://www.linkedin.com/in/hisonlin/',
-    resume: 'https://drive.google.com/file/d/15jfrttl0BiqnSvj0JMJJuP4t2W_W_sOs/view?usp=drive_link',
+    resume: 'https://drive.google.com/file/d/16pfDWE9hy0el0AXmIqtHLnMF2a9bDLpS/view?usp=sharing',
     github: 'https://github.com/hisonlin'
   };
   
