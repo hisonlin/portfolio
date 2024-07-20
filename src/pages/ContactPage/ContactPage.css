@@ -57,5 +57,9 @@
         margin-top: 5vh;
         justify-self: flex-end;
     }
+    .logo{
+        transform: scale(2);
+    }
+
    
 }
