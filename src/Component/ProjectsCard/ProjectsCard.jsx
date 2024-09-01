@@ -14,6 +14,33 @@ const ProjectsCard = props => {
                     <div class="ag-courses-item_link">
                         <div class="ag-courses-item_bg"></div>
                         <div class="ag-courses-item_title">
+                            LuluLemon Clone Web App
+                        </div>
+                        <div class="ag-courses-item_description">
+                            <ul>
+                                <li>Developed a clone of the Lululemon website, replicating its design and functionality to provide a complete shopping experience.</li>
+                                <li>Utilized <span>React</span> and <span>Redux</span> for front-end development, enhancing user experience with dynamic state management and responsive design.</li>
+                                <li>Implemented data fetching from the Lululemon API, displaying 217 products with full product details, filtering capabilities, and cart functionality.</li>
+                                <li>Built a robust e-commerce platform with features including product filtering, detailed product views, cart management, and purchase completion.</li>
+                                <li>Employed <span>Redux Thunk</span> for handling asynchronous operations and <span>React Router</span> for smooth navigation between different components.</li>
+                                <li>Handled <span>API</span> requests using <span>Axios</span> and a custom proxy server to resolve <span>CORS</span> issues, enabling seamless data interaction from a secure HTTPS environment.</li>
+
+                            </ul>
+                        </div>
+                        <div class="ag-courses-item_date">
+                            Aug 2024
+                        </div>
+                        <div class="ag-courses-buttons">
+                            <button className='project-button' onClick={() => handleOnClick("https://github.com/hisonlin/lululemon-clone")}>GitHub</button>
+                            <button className='project-button' onClick={() => handleOnClick("https://lululemon-clone.vercel.app/")}>Deployment</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ag-courses_item">
+                    <div class="ag-courses-item_link">
+                        <div class="ag-courses-item_bg"></div>
+                        <div class="ag-courses-item_title">
                             Job Finder Bot
                         </div>
                         <div class="ag-courses-item_description">
