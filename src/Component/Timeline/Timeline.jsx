@@ -25,12 +25,12 @@ const Timeline = props => {
                                 </li>
                                 <li>One months front-end skill web development project:
                                     <ul>
-                                        <li>Coming Soon...</li>
+                                        <li><a href='https://lululemon-clone.vercel.app/'>Lululemon Clone project</a></li>
                                     </ul>
                                 </li>
                                 <li>One months back-end skill development including:
                                     <ul>
-                                        <li>Coming Soon...</li>
+                                        <li>NodeJS, Express, CORS, Restful API, MySQL, TypeScript, TypeORM, JWT</li>
                                     </ul>
                                 </li>
                                 <li>One months ongoing commercial full-stack project:

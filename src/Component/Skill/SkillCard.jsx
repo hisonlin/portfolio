@@ -5,16 +5,16 @@ import MakeAwesome from '../MakeAwesome/MakeAwesome';
 
 const SkillCard = (props) => {
 
-    const webCard = ['JavaScript', 'HTML5', 'CSS3', 'ES2015', 'NodeJS', 'ReactJS', 'Redux', 'REST API', 'axios', 'JWT Auth', 'JSON', 'Animation', 'Database', 'Responsive Design', 'WebStorm', 'Visual Studio Code'];
+    const webCard = ['JavaScript', 'HTML5', 'CSS3', 'ES2015', 'NodeJS', 'ReactJS', 'Redux', 'REST API', 'Axios', 'JWT Auth', 'JSON', 'Animation', 'Database', 'Responsive Design', 'WebStorm', 'Visual Studio Code'];
     const uixCard=['Wireframe', 'Mockup', 'Figma', 'Bootstrap', 'Material UI', 'Tailwind', 'Material Design 3', 'Compose'];
-    const dataCard=['MySQL', 'MongoDB', 'Firebase', 'DynamoDB'];
+    const databaseCard=['MySQL', 'MongoDB', 'Firebase', 'DynamoDB', 'TypeORM'];
     const androidCard=['Java', 'Kotlin', 'MVC', 'XML', 'Material Design 3', 'Jetpack Compose', 'Android Studio'];
-    const languageCard=['JavaScript', 'Java', 'Kotlin', 'Python', 'C++', 'C#'];
+    const languageCard=['JavaScript', 'TypeScript', 'Java', 'Kotlin', 'Python', 'C++', 'C#'];
 
     const skillCardObj={
         webCard,
         uixCard,
-        dataCard,
+        databaseCard,
         androidCard,
         languageCard
     }
