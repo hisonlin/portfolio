@@ -13,8 +13,47 @@ const ProjectsCard = props => {
                 <div class="ag-courses_item">
                     <div class="ag-courses-item_link">
                         <div class="ag-courses-item_bg"></div>
+                        <div className="ag-courses-item_title">
+                            Hi Movie App
+                        </div>
+                        <div className="ag-courses-item_description">
+                            <ul>
+                                <li>
+                                    A dynamic movie browsing platform that displays the latest movies in real-time using <span>TMDB’s API</span>.
+                                </li>
+                                <li>
+                                    Developed with <span>React</span> and <span>Redux Toolkit</span> to provide a smooth and engaging user experience.
+                                </li>
+                                <li>
+                                    <strong>Key Features:</strong>
+                                    <ul>
+                                        <li>Real-time updates on the latest movies.</li>
+                                        <li>Search and filter capabilities for easy movie discovery.</li>
+                                        <li>Favorites management, allowing users to save and revisit movies.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Built with <span>@mui/material</span> and <span>Sass</span> for a visually appealing, responsive design.
+                                </li>
+                                <li>
+                                    Uses <span>React Router</span> for seamless page transitions.
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="ag-courses-item_date">
+                            Oct 2024
+                        </div>
+                        <div class="ag-courses-buttons">
+                            <button className='project-button' onClick={() => handleOnClick("https://github.com/hisonlin/HiMovie")}>GitHub</button>
+                            <button className='project-button' onClick={() => handleOnClick("https://hi-movie.vercel.app/")}>Deployment</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ag-courses_item">
+                    <div class="ag-courses-item_link">
+                        <div class="ag-courses-item_bg"></div>
                         <div class="ag-courses-item_title">
-                            LuluLemon Clone Web App
+                            LuluLemon Clone Web App (API key may expired)
                         </div>
                         <div class="ag-courses-item_description">
                             <ul>
